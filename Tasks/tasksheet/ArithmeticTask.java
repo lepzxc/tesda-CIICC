@@ -1,5 +1,11 @@
 package tasksheet;
 
+/**
+ * The ArithmeticTask class implements an application that
+ * using a compound assignment and simply prints the result to standard output.
+ * Task 1-1-2
+ */
+
 public class ArithmeticTask {
 
     public static void main (String[] args){

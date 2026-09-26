@@ -1,0 +1,19 @@
+package tasksheet;
+
+/**
+ * The AddOrEven class implements an application that
+ * simply prints if the number is Odd or Even to standard output.
+ * Task 1-1-3
+ */
+
+public class AddOrEven {
+    public static void main(String[] args) {
+        int check_number = 10;
+        String message;
+
+        for(int i=1; i<=check_number; i++) {
+            message = (i%2==0) ? i + " is even number" : i + " is odd number";
+            System.out.println(message);
+        }
+    }
+}
