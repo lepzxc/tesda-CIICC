@@ -23,6 +23,7 @@ public class Task5 {
         } else {
             System.out.println("Largest number: " + result);
         }
+        sc.close();
     }
 
     public static int findLargestNumber(ArrayList<Integer> numbers) {

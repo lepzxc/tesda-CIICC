@@ -15,5 +15,7 @@ public class StringMethods {
         System.out.println(text.charAt(0));
         System.out.println(text.charAt(text.length()-1));
         System.out.println(text.substring(1, 4));
+
+        sc.close();
     }
 }

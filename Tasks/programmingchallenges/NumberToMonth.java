@@ -63,11 +63,13 @@ public class NumberToMonth {
                 break;
             default:
                 System.out.println("Invalid number of month input!");
+                sc.close();
                 return;
         }
 
         System.out.println("=== RESULT ===");
         System.out.printf("Month: %s", month);
         System.out.printf("\nDays: %d", days);
+        sc.close();
     }
 }
